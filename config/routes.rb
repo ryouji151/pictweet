@@ -8,8 +8,8 @@ Rails.application.routes.draw do
       get 'search'
     end
   end
- resources :comit #足した
- resources :comit #足した
+ resources :comit 
+ resources :comit #消した
  
  resources :users
 end
